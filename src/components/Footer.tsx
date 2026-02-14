@@ -27,7 +27,7 @@ export const Footer = () => {
           <Text onBackground="neutral-weak">
             {/* Usage of this template requires attribution. Please don't remove the link to Once UI unless you have a Pro license. */}
             / Build with{" "}
-            <SmartLink href="https://ws-proaudio.com"></SmartLink>
+            <SmartLink href="https://ws-proaudio.com" children={undefined}></SmartLink>
           </Text>
         </Text>
         <Row gap="16">
