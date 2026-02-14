@@ -70,8 +70,8 @@ const home: Home = {
   path: "/",
   image: "/images/og/home.jpg",
   label: "Home",
-  title: `${person.name}'s Portfolio`,
-  description: `Portfolio website showcasing my work as a ${person.role}`,
+  title: `${person.name} SOUND & LIGHTING JAKARTA`,
+  description: `SOUND & LIGHTING JAKARTA | Sewa Sound System Jakarta | Sewa Ligting Jakarta ${person.role}`,
   headline: <>Abadikan Momen Berharga dengan Harmoni yang Sempurna.</>,
   featured: {
     display: true,
