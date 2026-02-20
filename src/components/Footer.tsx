@@ -18,7 +18,7 @@ export const Footer = () => {
         s={{
           direction: "column",
           horizontal: "center",
-          align: "center",
+          vertical: "center",
         }}
       >
         <Text variant="body-default-s" onBackground="neutral-strong">
@@ -26,8 +26,8 @@ export const Footer = () => {
           <Text paddingX="4">{person.name}</Text>
           <Text onBackground="neutral-weak">
             {/* Usage of this template requires attribution. Please don't remove the link to Once UI unless you have a Pro license. */}
-            / Build with{" "}
-            <SmartLink href="https://ws-proaudio.com" children={undefined}></SmartLink>
+            / Build by{""}
+            <SmartLink href="https://ws.is-a.dev" children="wsnustrw"></SmartLink>
           </Text>
         </Text>
         <Row gap="16">
