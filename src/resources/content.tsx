@@ -84,7 +84,7 @@ const home: Home = {
         </Text>
       </Row>
     ),
-    href: "/work/rental-sound-system",
+    href: "/work/sewa-sound-system",
   },
   subline: (
     <>
@@ -153,55 +153,102 @@ const about: About = {
       },
       {
         company: "Sewa Lighting Set",
-        timeframe: "2018 - 2022",
+        timeframe: "2026",
         role: "Ubah Suasana Biasa Jadi Luar Biasa dengan Magic Lighting! Bikin stage kamu makin hidup dan estetik! Tanpa lighting yang pas, acara keren bakal terasa hambar. Kami siap menyulap venue kamu jadi penuh warna dan penuh energi.",
         achievements: [
           <>
-            Developed a design system that unified the brand across multiple platforms, improving
-            design consistency by 40%.
+            Moving Head Beam (100 Watt, 120 Watt, 150 Watt, 230 Watt, 380 Watt) 
           </>,
           <>
-            Led a cross-functional team to launch a new product line, contributing to a 15% increase
-            in overall company revenue.
+            Par LED (16x3 Watt, 18x3 Watt, 36x3 Watt, 54x3 Watt)
           </>,
+          <>
+            Fresnel
+          </>,
+          <>
+            Smoke Gun
+          </>,
+
         ],
-        images: [],
+        images: [
+          {
+            src: "/images/projects/project-01/lighting.jpg",
+            alt: "Once UI Project",
+            width: 16,
+            height: 9,
+          },
+        ],
+      },
+      {
+        company: "Talent Profesional untuk Acara Kamu",
+        timeframe: "2026",
+        role: "Bingung cari talent profesional untuk acara kamu? Tenang, kami punya solusi lengkap! Kami menyediakan talent profesional untuk berbagai jenis acara, mulai dari MC, DJ, hingga artis panggung. Dengan pengalaman dan keahlian mereka, mereka akan membuat acara kamu semakin meriah dan berkesan. Jangan ragu untuk menghubungi kami untuk mendapatkan talent terbaik yang sesuai dengan kebutuhan acara kamu!",
+        achievements: [
+          <>
+            Adaptasi Konsep yang Luas: Apapun tema acara Anda—vintage, modern, elegant, atau festive—kami memastikan performa talent menyatu sempurna dengan dekorasi dan suasana.
+          </>,
+          <>
+            Kualitas Profesional & Berpengalaman: Didukung oleh individu-individu yang jam terbangnya tinggi di industri hiburan, menjamin penampilan yang minim kesalahan dan penuh percaya diri.
+          </>,
+          <>
+            Interaksi Audiens yang Berkesan: Talent kami terlatih untuk membaca situasi di lapangan, memastikan audiens tetap terlibat (engaged) dan merasa menjadi bagian dari acara.
+          </>,
+          <>
+            Koordinasi Teknis yang Mulus: Karena kami juga menyediakan infrastruktur (sound & lighting), koordinasi antara talent dan kru teknis berjalan satu pintu, sehingga pertunjukan jauh lebih rapi dan sinkron.
+          </>,
+          <>
+            Pilihan Multitalenta: Tersedia berbagai kategori hiburan mulai dari Master of Ceremony (MC), penyanyi solo, band akustik, hingga full band dan penari latar.
+          </>
+
+        ],
+        images: [
+          {
+            src: "/images/gallery/gardenia-v.jpg",
+            alt: "Once UI Project",
+            width: 16,
+            height: 9,
+          },
+        ],
       },
     ],
   },
   studies: {
     display: true, // set to false to hide this section
-    title: "Studies",
+    title: "Experience & Portfolio",
     institutions: [
       {
-        name: "University of Jakarta",
-        description: <>Studied software engineering.</>,
+        name: "Professional Event Handling:",
+        description: <>Berpengalaman menangani berbagai skala acara, mulai dari intimate wedding, seminar, hingga konser musik outdoor.</>,
       },
       {
-        name: "Build the Future",
-        description: <>Studied online marketing and personal branding.</>,
+        name: "Vast Project History:",
+        description: <>Telah sukses mendukung lebih dari 500 acara di wilayah Jakarta dan sekitarnya dengan tingkat kepuasan klien yang tinggi.</>,
+      },
+      {
+        name: "Certified Sound Engineer:",
+        description: <>Tim teknis kami memiliki latar belakang kuat dalam manajemen audio dan tata cahaya untuk memastikan kualitas output yang maksimal.</>,
       },
     ],
   },
   technical: {
     display: true, // set to false to hide this section
-    title: "Technical skills",
+    title: "Our Tech Specs",
     skills: [
       {
-        title: "Figma",
+        title: "Professional Sound Management:",
         description: (
-          <>Able to prototype in Figma with Once UI with unnatural speed.</>
+          <>Keahlian dalam mixing dan tuning frekuensi untuk menghasilkan suara yang jernih, empuk, dan tidak berisik di telinga audiens.</>
         ),
-        tags: [
-          {
-            name: "Figma",
-            icon: "figma",
-          },
-        ],
+        // tags: [
+        //   {
+        //     name: "Figma",
+        //     icon: "figma",
+        //   },
+        // ],
         // optional: leave the array empty if you don't want to display images
         images: [
           {
-            src: "/images/projects/project-01/cover-02.jpg",
+            src: "/images/projects/project-01/pp.jpg",
             alt: "Project image",
             width: 16,
             height: 9,
@@ -215,28 +262,57 @@ const about: About = {
         ],
       },
       {
-        title: "Next.js",
+        title: "Lighting Control & Programming:",
         description: (
-          <>Building next gen apps with Next.js + Once UI + Supabase.</>
+          <>Pengoperasian lighting console tingkat lanjut untuk menciptakan ambience yang dinamis dan sesuai dengan mood acara.</>
         ),
-        tags: [
-          {
-            name: "JavaScript",
-            icon: "javascript",
-          },
-          {
-            name: "Next.js",
-            icon: "nextjs",
-          },
-          {
-            name: "Supabase",
-            icon: "supabase",
-          },
-        ],
+        // tags: [
+        //   {
+        //     name: "JavaScript",
+        //     icon: "javascript",
+        //   },
+        //   {
+        //     name: "Next.js",
+        //     icon: "nextjs",
+        //   },
+        //   {
+        //     name: "Supabase",
+        //     icon: "supabase",
+        //   },
+        // ],
         // optional: leave the array empty if you don't want to display images
         images: [
           {
-            src: "/images/projects/project-01/cover-04.jpg",
+            src: "/images/projects/project-01/lighting.jpg",
+            alt: "Project image",
+            width: 16,
+            height: 9,
+          },
+        ],
+      },
+      {
+        title: "High-End Equipment:",
+        description: (
+          <>Menggunakan perangkat standar industri (seperti yang terlihat pada gambar profil Anda) untuk menjamin durabilitas dan kualitas suara selama acara berlangsung.</>
+        ),
+        // tags: [
+        //   {
+        //     name: "JavaScript",
+        //     icon: "javascript",
+        //   },
+        //   {
+        //     name: "Next.js",
+        //     icon: "nextjs",
+        //   },
+        //   {
+        //     name: "Supabase",
+        //     icon: "supabase",
+        //   },
+        // ],
+        // optional: leave the array empty if you don't want to display images
+        images: [
+          {
+            src: "/images/projects/project-01/equipment.jpg",
             alt: "Project image",
             width: 16,
             height: 9,
@@ -279,11 +355,6 @@ const gallery: Gallery = {
       orientation: "horizontal",
     },
     {
-      src: "/images/gallery/vertical-5.jpg",
-      alt: "image",
-      orientation: "vertical",
-    },
-    {
       src: "/images/gallery/horizontal-6.jpg",
       alt: "image",
       orientation: "horizontal",
@@ -310,6 +381,16 @@ const gallery: Gallery = {
     },
     {
       src: "/images/gallery/vertical-8.jpg",
+      alt: "image",
+      orientation: "vertical",
+    },
+    {
+      src: "/images/projects/project-01/pp.jpg",
+      alt: "image",
+      orientation: "horizontal",
+    },
+    {
+      src: "/images/projects/project-01/equipment.jpg",
       alt: "image",
       orientation: "vertical",
     },
